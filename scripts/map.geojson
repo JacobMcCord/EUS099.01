@@ -1,39 +1,118 @@
 var geoJson = [{
   "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "properties": {
-        "title": "Brandenburg Gate",
-		"marker-size": "medium",
-	"marker-color": "#3366FF",
-	"marker-symbol": "star-stroked",
-	"images":[[ "images/Brandenburger_Tor_abends.jpg", "The Brandenburg Gate."],[ "images/Brandenburger2.jpg", "The Brandengurb Gate quadriga at night."]]},
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          "13.377674",
-          "52.516224"
-        ]
-      }
-      }
-    ,
-    {
-      "type": "Feature",
-      "properties": {
-        "title": "Königsplatz",
-        "marker-size": "medium",
-	"marker-color": "#e5c278",
-	"marker-symbol": "star-stroked",
-	"images":[["images/1280px-Königsplatz_Berlin,_um_1880.jpg", "The Königsplatz with the Raczyński Palace in 1880."],["images/Reichstag_building_Berlin_view_from_west_before_sunset.jpg", "The Reichstag building."]]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          "13.376199",
-          "52.517539"
-        ]
-      }
-    },
-  ]
-  }];
+  "features": [{
+        "type": "Feature",
+        "properties": {
+          "title": "1936 Olympic Stadium",
+          "marker-size": "medium",
+          "marker-color": "#e5c228",
+          "marker-symbol": "star-stroked",
+          "images": [
+            [
+              '<img src="images/Olympiastadion_-_Marcel_Schoenhardt.jpg" />',
+              "The Olympic Stadium in 2011, by Marcel Schoenhardt"
+            ],
+            [
+              '<img src="images/stday (1).jpg" />',
+              "The Olympic Stadium in 2010, by Michael"
+            ],
+            [
+              '<img src="images/stday (2).jpg" />',
+              "The East Gate on August 1st, 1936, by Joe Haupt"
+            ],
+            [
+              '<img src="images/stday (3).jpg" />',
+              "The German Olympic Team enters the stadium, by Joe Haupt"
+            ],
+            [
+              '<iframe width="180"  src="https://www.youtube.com/embed/GePNydI9gX4" frameborder="0" allowfullscreen></iframe>',
+              "1936 Olympic Opening Ceremony, International Olympic Committee"
+            ]
+          ]
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [ [13.231320, 52.510232], [13.235122, 52.518312], [13.253973, 52.519018],
+              [13.250840, 52.513242] ]
+            ]
+         }
+        },{
+          "type": "Feature",
+          "properties": {
+            "title": "Poststadion Football Complex",
+            "marker-size": "medium",
+            "marker-color": "#e5c228",
+            "marker-symbol": "star-stroked",
+            "images": [
+              [
+                '<img src="images/poststadion.jpg" />',
+                "Poststadion in 2011, by Peter Kuley"
+              ],
+              ['<img src="images/postfar.jpg" />',
+                "Poststadion Fields by Cls14"
+              ],
+              [
+                '<iframe width="180"  src="https://www.youtube.com/embed/_GesogZQFME" frameborder="0" allowfullscreen></iframe>',
+                "FC Schalke vs. FC Nürnberg, Poststadion in June 1934"
+              ]
+            ]
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              "13.359444",
+              "52.530000"
+
+              ]
+           }
+          },{
+            "type": "Feature",
+            "properties": {
+              "title": "AVUS Racetrack",
+              "marker-size": "medium",
+              "marker-color": "#e5c228",
+              "marker-symbol": "star-stroked",
+              "images": [
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                "13.251389",
+                "52.480556"
+
+                ]
+             }
+            },{
+              "type": "Feature",
+              "properties": {
+                "title": "Ruhleben Internment Camp / Pentathalon Racecourse",
+                "marker-size": "medium",
+                "marker-color": "#e5c228",
+                "marker-symbol": "star-stroked",
+                "images": [
+                  [
+                    '<img src="images/14775299891_bf8eca6ede_z.jpg" />',
+                    "The Pentathalon track during its time as a POW camp in WWI - Internet Archive Book Images"
+                  ],
+                  [
+                    '<img src="images/track.jpg" />',
+                    "The Ruhleben Racecourse, by Nico Jungmann"
+                  ],
+                  [
+                    '<img src="images/track2.jpg" />',
+                    "The Ruhleben Racecourse, by Nico Jungmann"
+                  ]
+                ]
+              },
+              "geometry": {
+                "type": "Point",
+                "coordinates": [
+                  "13.233333",
+                  "52.533333"
+
+                  ]
+               }
+              },]
+      }];
