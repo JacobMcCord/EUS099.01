@@ -36,7 +36,11 @@ var geoJson = [{
             [ [13.231320, 52.510232], [13.235122, 52.518312], [13.253973, 52.519018],
               [13.250840, 52.513242] ]
             ]
-         }
+         },
+         "style":{
+        "fill":"red",
+        "stroke-width":"3"
+        }
         },{
           "type": "Feature",
           "properties": {
@@ -67,24 +71,6 @@ var geoJson = [{
               ]
            }
           },{
-            "type": "Feature",
-            "properties": {
-              "title": "AVUS Racetrack",
-              "marker-size": "medium",
-              "marker-color": "#e5c228",
-              "marker-symbol": "star-stroked",
-              "images": [
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                "13.251389",
-                "52.480556"
-
-                ]
-             }
-            },{
               "type": "Feature",
               "properties": {
                 "title": "Ruhleben Internment Camp / Pentathalon Racecourse",
@@ -107,11 +93,10 @@ var geoJson = [{
                 ]
               },
               "geometry": {
-                "type": "Point",
+                "type": "Polygon",
                 "coordinates": [
-                  "13.233333",
-                  "52.533333"
-
+                  [ [13.226037, 52.524832], [13.230548, 52.533834], [13.244893, 52.535159],
+                    [13.244899, 52.526214] ]
                   ]
                }
               },]
